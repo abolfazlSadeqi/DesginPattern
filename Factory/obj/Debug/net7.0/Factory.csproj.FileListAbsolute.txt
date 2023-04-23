@@ -1,0 +1,15 @@
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\Factory.csproj.AssemblyReference.cache
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\Factory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\Factory.AssemblyInfoInputs.cache
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\Factory.AssemblyInfo.cs
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\Factory.csproj.CoreCompileInputs.cache
+D:\Project\14020230\DesginPattern\Factory\bin\Debug\net7.0\Factory.exe
+D:\Project\14020230\DesginPattern\Factory\bin\Debug\net7.0\Factory.deps.json
+D:\Project\14020230\DesginPattern\Factory\bin\Debug\net7.0\Factory.runtimeconfig.json
+D:\Project\14020230\DesginPattern\Factory\bin\Debug\net7.0\Factory.dll
+D:\Project\14020230\DesginPattern\Factory\bin\Debug\net7.0\Factory.pdb
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\Factory.dll
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\refint\Factory.dll
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\Factory.pdb
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\Factory.genruntimeconfig.cache
+D:\Project\14020230\DesginPattern\Factory\obj\Debug\net7.0\ref\Factory.dll
