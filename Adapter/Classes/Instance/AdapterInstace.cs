@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iterator.Classes.Service;
+namespace Adapter.Classes.Instance;
 
-public class IteratorInstace
+public class AdapterInstace
 {
     public IEnumerable<Product> RemoveAdjecentDuplicates(IEnumerable<Product> Product)
     {

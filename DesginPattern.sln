@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{4E1B1E42-AEF2-4A5F-A153-D9BD263EBDF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{08905754-E8BC-4545-BD66-79CF91DA995B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4E1B1E42-AEF2-4A5F-A153-D9BD263EBDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E1B1E42-AEF2-4A5F-A153-D9BD263EBDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E1B1E42-AEF2-4A5F-A153-D9BD263EBDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08905754-E8BC-4545-BD66-79CF91DA995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08905754-E8BC-4545-BD66-79CF91DA995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08905754-E8BC-4545-BD66-79CF91DA995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08905754-E8BC-4545-BD66-79CF91DA995B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
