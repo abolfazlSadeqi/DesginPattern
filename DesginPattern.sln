@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{62EEFEF7-D5D3-4588-B257-B13C498A596C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{4E1B1E42-AEF2-4A5F-A153-D9BD263EBDF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{4E1B1E42-AEF2-4A5F-A153-D9BD263EBDF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{08905754-E8BC-4545-BD66-79CF91DA995B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{08905754-E8BC-4545-BD66-79CF91DA995B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{23D56DE8-87D7-4DCD-BAA8-AC7E955582E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{08905754-E8BC-4545-BD66-79CF91DA995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08905754-E8BC-4545-BD66-79CF91DA995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08905754-E8BC-4545-BD66-79CF91DA995B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D56DE8-87D7-4DCD-BAA8-AC7E955582E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D56DE8-87D7-4DCD-BAA8-AC7E955582E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D56DE8-87D7-4DCD-BAA8-AC7E955582E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D56DE8-87D7-4DCD-BAA8-AC7E955582E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
