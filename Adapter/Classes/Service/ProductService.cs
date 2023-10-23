@@ -1,12 +1,7 @@
-﻿using Iterator.Classes.Domin;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using Adapter.Classes.Domin;
 
-namespace Iterator.Classes.Service;
+namespace Adapter.Classes.Service;
 
 public class ProductService
 {

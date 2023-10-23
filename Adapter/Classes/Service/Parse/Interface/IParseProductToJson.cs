@@ -1,9 +1,6 @@
-﻿using Iterator.Classes.Domin;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using Adapter.Classes.Domin;
 
 namespace Adapter.Classes.Service.Parse.Interface;
 

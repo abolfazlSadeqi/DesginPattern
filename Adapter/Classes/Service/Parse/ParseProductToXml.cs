@@ -1,14 +1,7 @@
 ﻿
 using Adapter.Classes.Service.Parse.Interface;
-using Iterator.Classes.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using System.Xml.Serialization;
 
+using System.Xml.Linq;
 namespace Adapter.Classes.Service.Parse
 {
 

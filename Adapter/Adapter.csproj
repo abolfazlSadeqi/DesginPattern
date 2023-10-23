@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="Classes\Base\" />
+    <Folder Include="Classes\Instance\" />
   </ItemGroup>
 
   <ItemGroup>
