@@ -1,2 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Visitor.Classes.Domin;
+using Visitor.Classes.interfaces;
+using Visitor.Classes.Service;
+
+var Accounts = new List<IElement>
+        {
+            new ShortTermAccount(500),
+         new LongTermAccount(1411)
+        };
+
+// monthly
+var _monthlyVisitor = new MonthlyVisitor();
+Accounts accounts1 = new Accounts(Accounts);
+accounts1.Accept(_monthlyVisitor);
+Console.WriteLine($"{_monthlyVisitor.Amount:C}");
+
+
+// tax
+var _TaxsVisitor = new TaxsVisitor();
+
+accounts1 = new Accounts(Accounts);
+accounts1.Accept(_TaxsVisitor);
+
+Console.WriteLine($"{_TaxsVisitor.Amount}");
+Console.ReadLine();
