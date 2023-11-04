@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using Command.Classes.Service;
+
+var runCommand = new Command.Classes.Service.RunCommand();
+runCommand.ExecuteCommand(new InsertAccountCommand(new Command.Classes.Domin.Account() { Id = 1, Type = "1", Balance = 0 }));
+runCommand.ExecuteCommand(new UpdateLastBalanceAccountCommand(new Command.Classes.Domin.Account() { Id = 1, Type = "1", Balance =200 }));
+
+
+
+runCommand.Undo();
