@@ -33,11 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{B0FC2B5A-711E-4EDE-ADBF-78C64CD2C357}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{68451E34-3047-458B-BDF6-93B05EB2B013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{68451E34-3047-458B-BDF6-93B05EB2B013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{F7E2316C-3D66-4D3F-947A-BA9E0DB96462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{F7E2316C-3D66-4D3F-947A-BA9E0DB96462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{D5708A09-5934-4A9E-9AB8-026FF41020BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{D5708A09-5934-4A9E-9AB8-026FF41020BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{9B3182C1-7D68-4F84-8AB6-49C4FF84C3AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{D5708A09-5934-4A9E-9AB8-026FF41020BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5708A09-5934-4A9E-9AB8-026FF41020BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5708A09-5934-4A9E-9AB8-026FF41020BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3182C1-7D68-4F84-8AB6-49C4FF84C3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3182C1-7D68-4F84-8AB6-49C4FF84C3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3182C1-7D68-4F84-8AB6-49C4FF84C3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3182C1-7D68-4F84-8AB6-49C4FF84C3AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
