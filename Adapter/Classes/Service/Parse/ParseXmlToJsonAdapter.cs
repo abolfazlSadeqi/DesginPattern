@@ -4,6 +4,7 @@ using Adapter.Classes.Service.Parse.Interface;
 
 namespace Adapter.Classes.Service.Parse;
 
+////Adapter
 public class ParseXmlToJsonAdapter : IParseXmlToJsonAdapter
 {
     private readonly IParseProductToXml _parseProductToXml;

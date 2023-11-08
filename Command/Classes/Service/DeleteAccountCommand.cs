@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Command.Classes.Service;
 
-
+//Concrete command
 public class DeleteAccountCommand : ICommand
 {
     private readonly Account _Account;

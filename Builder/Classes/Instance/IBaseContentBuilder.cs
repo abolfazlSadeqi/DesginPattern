@@ -5,8 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Builder.Classes.Service
+namespace Builder.Classes.Instance
 {
+    ////Builder 
     public abstract class IBaseContentBuilder
     {
         public abstract IBaseContentBuilder SetHeader(string Header);

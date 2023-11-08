@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace Adapter.Classes.Service.Parse.Interface
+namespace Adapter.Classes.Service.Parse.Interface;
+
+
+// implementation
+public interface IParseProductToXml
 {
-    public interface IParseProductToXml
-    {
-        public XDocument GetProductXml();
-    }
+    public XDocument GetProductXml();
 }

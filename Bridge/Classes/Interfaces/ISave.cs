@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bridge.Classes.Service.Implementation;
+namespace Bridge.Classes.Interfaces;
 
 /// <summary>
 /// reference: https://refactoring.guru/design-patterns/bridge/csharp/example
@@ -15,6 +15,8 @@ namespace Bridge.Classes.Service.Implementation;
 // interfaces can be entirely different. Typically the Implementation
 // interface provides only primitive operations, while the Abstraction
 // defines higher- level operations based on those primitives.
+
+//Implementor
 public interface ISave
 {
     string Save(Product product);

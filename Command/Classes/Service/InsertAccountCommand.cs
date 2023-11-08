@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace Command.Classes.Service;
 
 
+//Concrete command
 public class InsertAccountCommand : ICommand
 {
     private readonly Account _Account;

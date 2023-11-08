@@ -1,5 +1,4 @@
-﻿using Builder.Classes.Instance;
-using Builder.Classes.Service;
+﻿using Builder.Classes.Service;
 
 
 var _EmailContent = new EmailContent();

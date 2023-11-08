@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 
 namespace Adapter.Classes.Service.Parse;
 
+//Adaptee class)
 public class ParseProductToJson: IParseProductToJson
 {
     public string ConvertToJson(List<Product> products)

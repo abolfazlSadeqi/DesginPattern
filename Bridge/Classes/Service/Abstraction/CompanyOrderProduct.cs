@@ -1,4 +1,4 @@
-﻿using Bridge.Classes.Service.Implementation;
+﻿using Bridge.Classes.Interfaces;
 using Iterator.Classes.Domin;
 using System;
 using System.Collections.Generic;
@@ -10,6 +10,7 @@ namespace Bridge.Classes.Service.Abstraction;
 
 
 
+//RefinedAbstraction
 public class CompanyOrderProduct : DataSave
 {
 
@@ -17,7 +18,7 @@ public class CompanyOrderProduct : DataSave
     {
     }
 
-    public string SaveContent(Product product)
+    public override string SaveContent(Product product)
     {
 
         //to do
