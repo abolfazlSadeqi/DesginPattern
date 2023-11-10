@@ -4,8 +4,9 @@ using Visitor.Classes.Service;
 
 var Accounts = new List<IElement>
         {
-            new ShortTermAccount(500),
-         new LongTermAccount(1411)
+            new ShortTermAccount(10),
+         new LongTermAccount(20)  , new ShortTermAccount(30),
+         new LongTermAccount(40)
         };
 
 // monthly

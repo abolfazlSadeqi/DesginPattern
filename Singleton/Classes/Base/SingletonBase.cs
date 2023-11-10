@@ -4,34 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Singleton.Classes.Base
-{
-       public class SingletonBase<T> where T : class, new()
-    {
-        private static T instance = null;
-        private static object locker = new();
-        public static T Instance
-        {
-          
+namespace Singleton.Classes.Base;
 
-            get
+public class SingletonBase<T> where T : class, new()
+{
+    private SingletonBase()
+    {
+    }
+    private static T instance = null;
+    private static object locker = new();
+    public static T Instance
+    {
+
+
+        get
+        {
+            if (instance == null)
             {
-                if (instance == null)
+                lock (locker)
                 {
-                    lock (locker)
+                    if (instance == null)
                     {
-                        if (instance == null)
-                        {
-                            instance = new();
-                        }
+                        instance = new();
                     }
                 }
-                return instance;
             }
-
+            return instance;
         }
 
     }
+
 }
 
 
